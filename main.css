@@ -20,6 +20,13 @@ body {
     
 }
 
+#date {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Digi", serif;
+}
+
 .big-text {
     font-size: 15rem;
 }
@@ -30,5 +37,5 @@ body {
 
 .digital-text {
     font-family: "Digi", serif;
-    color: green;
+    color: rgb(52, 202, 52);
 }
