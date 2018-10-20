@@ -39,3 +39,21 @@ body {
     font-family: "Digi", serif;
     color: rgb(52, 202, 52);
 }
+
+.circle {
+    display: inline-block;
+    height: .7rem;
+    width: .7rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(125, 125, 125, 0.6);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.am {
+    background-color: rgba(125, 125, 125, 0.6);
+}
+
+.pm {
+    background-color: red;
+}
