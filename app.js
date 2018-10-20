@@ -15,13 +15,13 @@ function tick() {
     const minValue = time.getMinutes();
     const hourValue = time.getHours();
     //render time
-    hours.textContent = hourValue % 12 === 0 ? 12 : hourValue % 12;
+    hours.textContent = hourValue % 12 === 0 ? 12 : `${hourValue % 12}`.padStart(2, '0');
     minutes.textContent = `${minValue}`.padStart(2, '0');
     
     //get date (format: MM-DD-YYYY)
-    const year = time.getFullYear();
-    const month = time.getMonth();
-    const day = time.getDate();
+    const year = `${time.getFullYear()}`.padStart(4, '0');
+    const month = `${time.getMonth()}`.padStart(2, '0');
+    const day = `${time.getDate()}`.padStart(2, '0');
     //render date
     date.textContent = `${month}-${day}-${year}`;
     //rnder am/pm status
